@@ -1,0 +1,87 @@
+/* common */
+
+body{
+  margin: 0;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+h1,
+h2,
+p{
+  margin: 0;
+}
+
+
+/* header */
+header {
+  background: #efefef;
+}
+
+header .container {
+width: 400px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+padding: 32px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  display: flex;
+  gap: 8px;
+}
+
+header .icon {
+border-radius: 50%;
+}
+
+header .container div + div{
+  margin-left: 32px;
+}
+/* main */
+
+main .container{
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main h1{
+  font-size: 24px;
+  font-weight: normal;
+  padding: 60px 0;
+}
+
+main section {
+  text-align: left;
+}
+
+main h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 16px;
+}
+main p {
+  line-height: 1.8;
+  margin-top:16px;
+}
+
+main section + section  {
+  margin-top:60px;
+}
+/* footer */
+footer div{
+color: #aaa;
+text-align: center;
+padding:60px 0;
+}
